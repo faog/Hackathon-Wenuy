@@ -2,6 +2,77 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav{
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    padding: 0px 40px;
+    top: 0px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer, main{
+    margin:0px;
+}
+
+/*PANTALLA PUBLICACIONES*/
+
+.logo{
+    height: 50px;   
+    padding-top: 10px; 
+}
+
+#persondemale{
+    height: 50px;   
+    padding-top: 10px;
+    padding-left:180px
+}
+
+#notice{
+    font-size:28px;
+    text-align:center;
+    color: #512772;
+    font-weight: bold; 
+    padding-top: 50px; 
+}
+
+#post{
+    padding: 0px 40px;
+}
+
+#message{
+    border:none;
+    height:80px;
+    width: 100%;
+    color: #512772;
+}
+
+#result{
+    padding: 0px 40px;
+    padding-top:20px;
+    
+}
+
+#name{
+    color: #512772;
+    font-size:22px;
+    font-weight: bold
+}
+
+#hash{
+    color: #512772;
+    font-size:18px;
+}
+
 /*PANTALLA SERIO*/
 
 .titulo{

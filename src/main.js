@@ -15,10 +15,14 @@ if(document.getElementById('messageadd')){
     document.getElementById('messageadd').addEventListener('click',()=>{
     let messageInput=document.getElementById("message").value;
     let situacionSelect = document.getElementById("situacion").value;
+    let nameUser="Macarena Terán";
+    let date=Date.now();
 
         db.collection("users").add({
+            name: nameUser,
             message: messageInput,
-            situacion: situacionSelect
+            situacion: situacionSelect,
+            date:date
         
         })
         .then(function(docRef) {
@@ -39,9 +43,10 @@ db.collection("users").onSnapshot((querySnapshot) => {
     querySnapshot.forEach((doc) => {
         console.log(`${doc.id} => ${doc.data().message}`);
         containerMessage.innerHTML +=
-        `<h3>post</h3>
-        <h6>${doc.data().message}</h6>
-        <h6>"#"${doc.data().situacion}</h6>
+        `
+            <h4 id="name">${doc.data().name}<h4>
+            <h6 id="hash"><strong style=font-weight:bold;>#${doc.data().situacion}</strong>${doc.data().message}</h6>            
+
         <!--<button id="delete">Eliminar</button>-->`
     });
 });

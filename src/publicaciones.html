@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wenüy: Inicio de sesión</title>
+    <title>Wenüy: Publicaciones</title>
+    <link rel="shortcut icon" href="favicon.ico" />
    
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -18,24 +19,33 @@
 
 </head>
 <body>
-    <h4>Wenüy</h4>
-    <main class="container">
-        
-        <input type="textarea" id="message" placeholder="¿Quieres publicar un mensaje">
-        <section id="post">
+    
+    <nav class="row">
+        <img src="img/w.png" class="logo" alt="logo Wenuy"/> 
+        <img src="img/icons8-person-female-100.png" id="persondemale" alt="Foto persona"/> 
+    </nav>
+    
+    <h2 id= "notice">Noticias</h2> 
+    <section id="post"> 
+                 
+        <textarea id="message" placeholder="¿Qué necesitas?"></textarea>
             <select id="situacion" class="browser-default">
                 <option value="all">¿En que estas?</option>
                 <option value="uber&taxi">Uber&taxi</option>
                 <option value="enlacalle">En la calle</option>
                 <option value="teayudo">Te ayudo</option>            
             </select>
-            <button id="messageadd">Publicar</button>
-        </section>
-        <section id="result">
-            
-        </section>
-    </main>
+        <button id="messageadd">Publicar</button>
+    </section>
  
+  
+       
+    <section id="result">
+        
+    </section>     
+   
+
+
 
     <script src="main.js"></script>    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
