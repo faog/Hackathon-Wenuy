@@ -1,13 +1,52 @@
 *{
     font-family: 'Roboto', sans-serif;
+    color: #512772;
+}
+
+
+/*PANTALLA ESTADOS*/
+
+@media (max-width: 992px){
+    .logo{
+         width: 70px;
+         height: 50px;
+         margin-top: 30px;
+         margin-left: 40px;
+    }
+
+    h2{
+        margin-left:50px;
+        margin-top:50px;
+    }
+
+    #happy{
+        margin-top:20px;
+        margin-left:100px;
+    }
+
+    #serius{
+        margin-top:20px;
+        margin-left:100px;
+    }
+
+    #sad{
+        margin-top:20px;
+        margin-left:100px;
+    }
 }
 
 /*PANTALLA SERIO*/
 
- .titulo  {
+
+@media (max-width: 992px){
+
+.titulo{
+
     text-align: center;
-    color: #512772;
+    margin-left:-10px;
+    
 }
+
 
 .w{
     width: 85px;
@@ -17,8 +56,25 @@
 }
 
 .map{
-    width: 600px;
-    height: 500px;
+    width: 350px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#locationserio{
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 55px;
+    height:55px;
+
+}
+
+h6{
+    margin-left:100px;
+    margin-top:-45px;
+    font-size: 18px;
+    
 }
 
 /*PANTALLA INICIO*/
@@ -72,4 +128,5 @@
     color: white; 
 
 }
+
 
