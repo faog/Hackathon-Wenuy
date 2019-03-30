@@ -1,3 +1,22 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
+/*PANTALLA SERIO*/
+
+.titulo{
+    text-align: center;
+    color: #512772;
+}
+
+.w{
+    width: 85px;
+    height: 45px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.map{
+    width: 600px;
+    height: 500px;
+}
