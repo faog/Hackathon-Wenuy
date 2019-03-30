@@ -37,9 +37,11 @@
 
 /*PANTALLA SERIO*/
 
+
 @media (max-width: 992px){
 
 .titulo{
+
     text-align: center;
     margin-left:-10px;
     
@@ -74,4 +76,57 @@ h6{
     font-size: 18px;
     
 }
+
+/*PANTALLA INICIO*/
+.container-popup{
+    background-color: #cec8ed;
+    border: #ab9ed9 solid 10px;
+    text-align: center;
+    padding: 100px;
+        margin:10px 10px 10px 10px;
+        border-radius: 30px;
+        width:600px;
+        height: 600px;
+        position:absolute;
+        top:5%;
+        left:25%;
 }
+
+.text {
+    text-align: center;
+    color: #512772;
+}
+
+.password{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+        margin:10px 10px 10px 10px;
+        border-radius: 30px;
+        width:300px;
+        height: 50px;
+        position: absolute;
+        left:23%;
+}
+
+
+.enter{
+    background-color: #512772;
+    text-align: center;
+    padding: 10px;
+        margin:10px 10px 10px 10px;
+        border-radius: 30px;
+        width:150px;
+        height: 50px;
+        position: absolute;
+        top: 150%;
+        left:23%; 
+}
+
+.text-enter{
+    text-decoration: none;
+    color: white; 
+
+}
+
+
