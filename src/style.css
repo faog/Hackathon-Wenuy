@@ -1,5 +1,38 @@
 *{
     font-family: 'Roboto', sans-serif;
+    color: #512772;
+}
+
+
+/*PANTALLA ESTADOS*/
+
+@media (max-width: 992px){
+    .logo{
+         width: 70px;
+         height: 50px;
+         margin-top: 30px;
+         margin-left: 40px;
+    }
+
+    h2{
+        margin-left:50px;
+        margin-top:50px;
+    }
+
+    #happy{
+        margin-top:20px;
+        margin-left:100px;
+    }
+
+    #serius{
+        margin-top:20px;
+        margin-left:100px;
+    }
+
+    #sad{
+        margin-top:20px;
+        margin-left:100px;
+    }
 }
 
 body {
@@ -75,10 +108,16 @@ footer, main{
 
 /*PANTALLA SERIO*/
 
+
+@media (max-width: 992px){
+
 .titulo{
+
     text-align: center;
-    color: #512772;
+    margin-left:-10px;
+    
 }
+
 
 .w{
     width: 85px;
@@ -88,6 +127,105 @@ footer, main{
 }
 
 .map{
-    width: 600px;
-    height: 500px;
+    width: 350px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#locationserio{
+    margin-left: 30px;
+    margin-top: 35px;
+    width: 55px;
+    height:55px;
+
+}
+
+h6{
+    margin-left:100px;
+    margin-top:-45px;
+    font-size: 18px;
+    
+}
+
+/*PANTALLA INICIO*/
+.container-popup{
+    background-color: #cec8ed;
+    border: #ab9ed9 solid 10px;
+    text-align: center;
+    padding: 100px;
+    margin:10px 10px 10px 10px;
+    border-radius: 30px;
+    width:600px;
+    height: 600px;
+    position:absolute;
+    top:5%;
+    left:25%;
+}
+
+.text {
+    text-align: center;
+    color: #512772;
+}
+
+.password{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin:10px 10px 10px 10px;
+    border-radius: 30px;
+    width:300px;
+    height: 50px;
+    position: absolute;
+    left:23%;
+}
+
+
+.enter{
+    background-color: #512772;
+    text-align: center;
+    padding: 10px;
+    margin:10px 10px 10px 10px;
+    border-radius: 30px;
+    width:150px;
+    height: 50px;
+    position: absolute;
+    top: 150%;
+    left:23%; 
+}
+
+.text-enter{
+    text-decoration: none;
+    color: white; 
+
+}
+
+ #phone-maca{
+    width: 30px;
+    height: 30px;
+}
+
+.container-phones{
+    color: #ab9ed9;
+    text-align:left;
+    width:200px;
+    height: 300px;
+    position: absolute;
+    top:30%;
+    left:23%; 
+}
+
+#mujer, #phone{
+    width: 200px;
+    height: 200px;
+    margin-left:20%;
+}
+
+#phone{
+    width: 100px;
+    height: 100px;
+    margin-left:35%;
+}
+
+
 }
