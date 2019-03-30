@@ -129,4 +129,17 @@ h6{
 
 }
 
+ #phone-maca{
+    width: 30px;
+    height: 30px;
+}
+
+.container-phones{
+    text-align:left;
+    width:200px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left:23%; 
+}
 
