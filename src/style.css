@@ -8,15 +8,14 @@
 
 @media (max-width: 992px){
     .logo{
-         width: 70px;
-         height: 50px;
-         margin-top: 30px;
-         margin-left: 40px;
+        width: 60px;
+        height: 50px
+      
     }
 
     h2{
         margin-left:50px;
-        margin-top:50px;
+        margin-top:60px
     }
 
     #happy{
@@ -59,11 +58,6 @@ footer, main{
 
 /*PANTALLA PUBLICACIONES*/
 
-.logo{
-    height: 50px;   
-    padding-top: 10px; 
-}
-
 #persondemale{
     height: 50px;   
     padding-top: 10px;
@@ -102,8 +96,22 @@ footer, main{
 }
 
 #hash{
+    padding-top:30px;
     color: #512772;
     font-size:18px;
+    margin-left:0px;
+}
+
+#messageadd{
+    background-color: #512772;
+    text-align: center;  
+    border-radius: 30px;
+    width:150px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+   
+  
 }
 
 /*PANTALLA SERIO*/
@@ -112,7 +120,7 @@ footer, main{
 @media (max-width: 992px){
 
 .titulo{
-
+    padding-top:60px;
     text-align: center;
     margin-left:-10px;
     
@@ -127,9 +135,9 @@ footer, main{
 }
 
 .map{
-    width: 350px;
+    width: 300px;
     height: 250px;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 20px;
 }
 
@@ -143,6 +151,7 @@ footer, main{
 
 h6{
     margin-left:100px;
+    margin-right: 20px;
     margin-top:-45px;
     font-size: 18px;
     
@@ -150,7 +159,7 @@ h6{
 
 /*PANTALLA INICIO*/
 .container-popup{
-    background-color: #cec8ed;
+    background-color: white;
     border: #ab9ed9 solid 10px;
     text-align: center;
     padding: 100px;
@@ -169,7 +178,7 @@ h6{
 }
 
 .password{
-    background-color: aliceblue;
+    background-color:#512772;;
     text-align: center;
     padding: 10px;
     margin:10px 10px 10px 10px;
