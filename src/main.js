@@ -31,3 +31,14 @@ document.getElementById('messageadd').addEventListener('click',()=>{
 })
 
 //funcion postear informacion en el muro (leer de la base de datos)
+let containerMessage=document.getElementById("result");
+db.collection("users").onSnapshot((querySnapshot) => {
+    containerMessage.innerHTML="";
+    querySnapshot.forEach((doc) => {
+        console.log(`${doc.id} => ${doc.data().message}`);
+        containerMessage.innerHTML +=
+        `<h3>post</h3>
+        <h6>${doc.data().message}</h6>
+        <h6>"#"${doc.data().situacion}</h6>`
+    });
+});
