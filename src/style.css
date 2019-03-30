@@ -157,6 +157,31 @@ h3{
 
 }
 
+ #phone-maca{
+    width: 30px;
+    height: 30px;
 }
+
+.container-phones{
+    color: #ab9ed9;
+    text-align:left;
+    width:200px;
+    height: 300px;
+    position: absolute;
+    top:30%;
+    left:23%; 
+}
+
+#mujer, #phone{
+    width: 200px;
+    height: 200px;
+    margin-left:20%;
+}
+
+ #phone{
+    width: 100px;
+    height: 100px;
+    margin-left:35%;
+
 
 
